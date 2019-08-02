@@ -1,0 +1,4 @@
+scrapy genspider news18 news18.com
+scrapy crawl news18 --nolog -o links.json -s JOBDIR=crawls/news18
+
+scrapy crawl firstpost --nolog -o firstpost.json
